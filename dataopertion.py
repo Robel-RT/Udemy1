@@ -12,3 +12,5 @@ print(monday_temprature)
 mystring = ['hello', 4, 5.6, 9]
 print(mystring[0][2])
 
+student_grades = {"Merry": 9.1, "Sim": 8.8, "Steven": 7.5}
+print(student_grades["Merry"])
