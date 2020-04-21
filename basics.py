@@ -55,4 +55,3 @@ print(day_temprature2)
 
 
 
-
