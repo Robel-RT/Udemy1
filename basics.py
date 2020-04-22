@@ -50,8 +50,7 @@ day_temprature2 = {'morning': (1.2,1.9,2), 'noon': (2.2,2.5,3), 'evening': (3.5,
 print(day_temprature2)
 # a dictionary with tuples and tuples with each value
 
-letters = ['a', 'b', 'c', 'd', 'e', 'f']
-print(letters[2:5])
+
 
 
 
