@@ -49,7 +49,7 @@ print(color_codes)
 day_temprature2 = {'morning': (1.2,1.9,2), 'noon': (2.2,2.5,3), 'evening': (3.5,4.0,4.7)}
 print(day_temprature2)
 # a dictionary with tuples and tuples with each value
- 
+
 
 
 
