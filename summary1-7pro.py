@@ -46,14 +46,15 @@ new_scale = [temp/10 if temp > 0 else 0 for temp in temprature]   #puts 0 inplac
 print(new_scale)
 
 
+my_list = [-2, 3, 4, -21, 6, -6]
+
+new_list = [i for i in my_list if i > 0]
+print(new_list) 
 
 
-    
+pad = ['2,1', '3.5', '4.9']
 
+num = [sum([float(i) for i in pad])]
+print(num) 
 
-        
-
-
-    
-
-
+   
