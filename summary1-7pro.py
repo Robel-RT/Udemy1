@@ -52,9 +52,14 @@ new_list = [i for i in my_list if i > 0]
 print(new_list) 
 
 
-pad = ['2,1', '3.5', '4.9']
+pad = ['2.1', '3.5', '4.9']
 
 num = [sum([float(i) for i in pad])]
 print(num) 
 
-   
+
+
+myfile = open("fruits.txt")
+counter = myfile.read()
+
+print(counter)
