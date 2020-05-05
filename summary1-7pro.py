@@ -65,3 +65,12 @@ myfile.close()
 
 print(content)
 print(content)    #these prints fruit.txt 2x, if u need many time u write the number of out put u like
+
+
+myfile = open("fruits.txt")
+content = myfile.read()
+myfile.close()
+
+with open("fruits.txt") as myfile:
+    content1 = myfile.read()
+print(content1)
