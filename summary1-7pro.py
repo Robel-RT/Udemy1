@@ -60,6 +60,8 @@ print(num)
 
 
 myfile = open("fruits.txt")
-counter = myfile.read()
+content = myfile.read()
+myfile.close()
 
-print(counter)
+print(content)
+print(content)    #these prints fruit.txt 2x, if u need many time u write the number of out put u like
