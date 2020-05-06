@@ -1,4 +1,5 @@
-Tomato
-Onion
-Salad
-Potato
+apple
+pears
+banana
+pinneaple
+watermelon

@@ -76,4 +76,9 @@ with open("fruits.txt") as myfile:
 print(content1)
 
 
+with open("fruits.txt") as file:
+    content = file.read()
+with open("vegetables.txt", "w") as newfile:
+    newfile.write(content)
+print(newfile)
 
