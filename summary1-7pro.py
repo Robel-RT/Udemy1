@@ -52,9 +52,33 @@ new_list = [i for i in my_list if i > 0]
 print(new_list) 
 
 
-pad = ['2,1', '3.5', '4.9']
+pad = ['2.1', '3.5', '4.9']
 
 num = [sum([float(i) for i in pad])]
 print(num) 
 
-   
+
+
+myfile = open("fruits.txt")
+content = myfile.read()
+myfile.close()
+
+print(content)
+print(content)    #these prints fruit.txt 2x, if u need many time u write the number of out put u like
+
+#Using Open syntax for the upper code
+myfile = open("fruits.txt")
+content = myfile.read()
+myfile.close()
+
+with open("fruits.txt") as myfile:
+    content1 = myfile.read()
+print(content1)
+
+
+with open("fruits.txt") as file:
+    content = file.read()
+with open("vegetables.txt", "w") as newfile:
+    newfile.write(content)
+print(newfile)
+
