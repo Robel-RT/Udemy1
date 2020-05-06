@@ -66,7 +66,7 @@ myfile.close()
 print(content)
 print(content)    #these prints fruit.txt 2x, if u need many time u write the number of out put u like
 
-
+#Using Open syntax for the upper code
 myfile = open("fruits.txt")
 content = myfile.read()
 myfile.close()
@@ -74,3 +74,6 @@ myfile.close()
 with open("fruits.txt") as myfile:
     content1 = myfile.read()
 print(content1)
+
+
+
